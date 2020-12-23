@@ -1,4 +1,4 @@
-# 2020 CNU DataTon
+# 2020 CNU DataTon - 팀 메리 솔로스마스
 
 
 ## What we've done
