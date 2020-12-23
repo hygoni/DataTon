@@ -15,14 +15,14 @@
   실제로는 "음식과 관련된 인스타그램 태그들"이 나오는 걸 확인할 수 있었다.  
  
 ## Data Crawling
-  ![Crawling](https://github.com/hygoni/DataTon/blob/main/crawling.PNG?raw=true)   
+  ![Crawling](https://github.com/hygoni/DataTon/blob/main/images/crawling.PNG?raw=true)   
   실제로 데이터를 수집하는 모습  
   
 ## Data Visualization
-  ![Tag Chart](https://github.com/hygoni/DataTon/blob/main/piechart.PNG?raw=true)  
+  ![Tag Chart](https://github.com/hygoni/DataTon/blob/main/images/piechart.PNG?raw=true)  
   "#먹스타그램" 관련 태그의 분포 (Pie Chart)  
   
-  ![Time Graph](https://github.com/hygoni/DataTon/blob/main/time_graph.PNG?raw=true)  
+  ![Time Graph](https://github.com/hygoni/DataTon/blob/main/images/time_graph.PNG?raw=true)  
   먹스타그램을 올리는 시간대는 시간대는 아침 10시, 저녁 8시-12시 사이에 많이 분포한다.  
 
 ## Behind Story
