@@ -1,6 +1,7 @@
 <!-- Styles -->
 <style>
     #chartdiv {
+      margin: 50px;
       width: 100%;
       height: 500px;
     }
@@ -25,35 +26,42 @@
     
     // Add data
     chart.data = [ 
-    {name: "먹스타그램", value: 652},
-    {name: "맛스타그램", value: 269},
-    {name: "일상", value: 198},
-    {name: "먹방", value: 143},
-    {name: "소통", value: 139},
-    {name: "맞팔", value: 134},
-    {name: "food", value: 118},
-    {name: "맛집", value: 118},
-    {name: "daily", value: 112},
-    {name: "좋아요", value: 111},
-    {name: "선팔", value: 100},
-    {name: "데일리", value: 97},
-    {name: "먹스타", value: 84},
-    {name: "먹팔", value: 80},
-    {name: "foodstagram", value: 76},
-    {name: "instafood", value: 65},
-    {name: "집밥", value: 62},
-    {name: "instagood", value: 61},
-    {name: "일상스타그램", value: 61},
-    {name: "좋아요반사", value: 59},
-    {name: "팔로우", value: 59},
-    {name: "선팔하면맞팔", value: 59},
-    {name: "좋반", value: 55},
-    {name: "셀스타그램", value: 53},
-    {name: "fff", value: 52},
-    {name: "먹스타맞팔", value: 52},
-    {name: "jmt", value: 51},
-];
-    
+    {name: "먹스타그램", value: 788},
+    {name: "맛스타그램", value: 323},
+    {name: "일상", value: 241},
+    {name: "소통", value: 170},
+    {name: "먹방", value: 169},
+    {name: "맞팔", value: 155},
+    {name: "좋아요", value: 148},
+    {name: "food", value: 141},
+    {name: "맛집", value: 140},
+    {name: "daily", value: 125},
+    {name: "선팔", value: 123},
+    {name: "데일리", value: 116},
+    {name: "먹스타", value: 104},
+    {name: "먹팔", value: 97},
+    {name: "foodstagram", value: 91},
+    {name: "일상스타그램", value: 77},
+    {name: "팔로우", value: 76},
+    {name: "instafood", value: 75},
+    {name: "집밥", value: 74},
+    {name: "instagood", value: 73},
+    {name: "선팔하면맞팔", value: 71},
+    {name: "좋아요반사", value: 70},
+    {name: "좋반", value: 68},
+    {name: "셀스타그램", value: 67},
+    {name: "먹스타맞팔", value: 67},
+    {name: "fff", value: 64},
+    {name: "요리스타그램", value: 63},
+    {name: "홈쿡", value: 61},
+    {name: "foodie", value: 60},
+    {name: "푸드스타그램", value: 58},
+    {name: "ootd", value: 57},
+    {name: "f4f", value: 55},
+    {name: "selfie", value: 52},
+    {name: "jmt", value: 52},
+  ]
+
     // Add and configure Series
     var pieSeries = chart.series.push(new am4charts.PieSeries());
     pieSeries.dataFields.value = "value";
